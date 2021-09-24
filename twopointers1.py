@@ -1,3 +1,5 @@
+https://www.interviewbit.com/problems/sort-by-color/
+  
 '''Given an array with n objects colored red, white or blue, 
 
 sort them so that objects of the same color are adjacent, with the colors in the order red, white and blue.
@@ -10,6 +12,7 @@ Example :
 
 Input : [0 1 2 0 1 2]
 Modify array so that it becomes : [0 0 1 1 2 2]'''
+
 
 Code is given below:
   
