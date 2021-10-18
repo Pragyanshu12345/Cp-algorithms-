@@ -7,6 +7,8 @@ struct Node
     int data;
     struct Node *next;
 } *first = NULL, *second = NULL, *third = NULL;
+
+
 // reversing a linked list using Sliding pointers
 void reverseLinkedlist(struct Node *p)
 {
@@ -20,8 +22,8 @@ void reverseLinkedlist(struct Node *p)
     }
     first = q;
 }
-// reversing a linked list using recursion
 
+// reversing a linked list using recursion
 void reverserecursion(struct Node *p, struct Node *q)
 {
     if (p)
@@ -32,6 +34,8 @@ void reverserecursion(struct Node *p, struct Node *q)
     else
         first = q;
 }
+
+// cocantenation of 2 linked list
 void concantenate(struct Node *p)
 {
     while (p->next)
@@ -39,6 +43,8 @@ void concantenate(struct Node *p)
     p->next = second;
     second = NULL;
 }
+
+// merging 2 linked List
 void merge(struct Node *p, struct Node *q)
 {
     struct Node *last;
@@ -76,6 +82,7 @@ void merge(struct Node *p, struct Node *q)
     if (q)
         last->next = q;
 }
+
 void create1(int a[], int n)
 {
     struct Node *last = NULL;
@@ -92,6 +99,7 @@ void create1(int a[], int n)
         last = t;
     }
 }
+
 void create2(int b[], int n)
 {
     struct Node *last = NULL;
@@ -108,6 +116,8 @@ void create2(int b[], int n)
         last = t;
     }
 }
+
+// Display of linked List
 void Display(struct Node *p)
 {
     while (p)
